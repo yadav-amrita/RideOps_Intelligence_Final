@@ -1,0 +1,20 @@
+column,description
+ticket_id,Support ticket ID (SUP-xxxxx)
+created_at,When the client raised the ticket (IST)
+channel,How the ticket came in
+client_id / client_name,Fictional corporate client
+client_tier,Enterprise / Mid-market / SMB
+category,Issue category tagged by L1 support
+priority,P1 (critical) to P4 (low)
+description,One-line summary of the issue
+assigned_agent,L1 support agent who owns the ticket
+first_response_at,First reply from L1 support
+escalated_to_eng,Whether L1 escalated the ticket to engineering
+eng_ticket_id,Linked engineering ticket (if escalated)
+eng_handoffs,Number of times the ticket went to engineering (each return to L1 and re-escalation counts)
+eng_outcome,Engineering's final verdict on the escalation
+status,Status as of data pull (30 Sep 2026)
+first_closed_at,When the ticket was first marked closed
+final_closed_at,When the ticket was finally closed (after any reopens); blank if still open
+reopen_count,Times the client reopened the ticket after closure
+csat_score,Client satisfaction rating 1-5 (blank if not given)

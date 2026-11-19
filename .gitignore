@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+
+*.sqlite
+*.sqlite3
+*.db
+
+# Local ticket records may contain client-identifying information.
+data/rideops_support_tickets.csv
